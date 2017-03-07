@@ -1,8 +1,18 @@
 /*====================UNIVERSALS====================*/
 * {
     font-family: 'Source Sans Pro', sans-serif;
-    border: 1px solid red; //tempborder
+    border: 1px solid red;
 }
+
+body {
+    padding-top: 40px;
+}
+
+.page-header {
+    padding-top: 60px;
+    margin-top: -40px;
+}
+
 .white-text {
     color: #fff;
 }
