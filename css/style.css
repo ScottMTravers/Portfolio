@@ -1,0 +1,44 @@
+/*====================UNIVERSALS====================*/
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid red; //tempborder
+}
+.white-text {
+    color: #fff;
+}
+
+.x-short {
+    height: 30px;
+}
+
+.short {
+    height: 60px;
+}
+
+.medium {
+    height: 160px;
+}
+
+.tall {
+    height: 320px;
+}
+
+.x-tall {
+    height: 640px;
+}
+
+.gutter-bottom-medium {
+    margin-bottom: 60px;
+}
+
+/*====================HEADER====================*/
+
+
+/*====================CALL TO ACTION====================*/
+
+#hero {
+    margin-top: -24px;
+    background-image: url('../img/call-to-action.jpg');
+    background-size: cover;
+    -webkit-filter: grayscale(50%);
+}
