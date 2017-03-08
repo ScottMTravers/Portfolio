@@ -1,3 +1,7 @@
+/*====================FONTS====================*/
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700,700i');
+
 /*====================UNIVERSALS====================*/
 * {
     font-family: 'Source Sans Pro', sans-serif;
@@ -45,27 +49,45 @@ p {
     margin-bottom: 40px;
 }
 
+.parallax-scroll {
+    position: relative;
+    top: 50%;
+    margin-top: -60px;
+}
+
 /*====================HEADER====================*/
+
 .active {
     border-bottom: 2px solid #ff7000;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
 }
 
 
 /*====================CALL TO ACTION====================*/
 
 #hero {
-    margin-top: -40px;
+    position: relative;
+    background-attachment: fixed;
+    margin-top: -60px;
     margin-bottom: -50px;
-    padding-top: 200px;
-    background-image: url('../img/call-to-action.jpg');
+    background-image: url('../img/desert2.jpg');
     background-size: cover;
+    background-position: bottom center;
     -webkit-filter: grayscale(50%);
     color: #fff;
 }
 
 #hero h1 {
-    font-weight: bold;
-    text-shadow: -2px 0 #000,0 2px #000,2px 0 #000,0 -2px #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
 }
 
+#responsive-design {
+    width: 35%;
+    margin-top: 350px;
+}
 /*====================ABOUT====================*/
