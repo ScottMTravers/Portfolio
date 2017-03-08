@@ -10,7 +10,6 @@ body {
 
 p {
     font-size: 18px;
-
 }
 
 .page-header {
@@ -47,15 +46,26 @@ p {
 }
 
 /*====================HEADER====================*/
+.active {
+    border-bottom: 2px solid #ff7000;
+}
 
 
 /*====================CALL TO ACTION====================*/
 
 #hero {
-    margin-top: -24px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+    padding-top: 200px;
     background-image: url('../img/call-to-action.jpg');
     background-size: cover;
     -webkit-filter: grayscale(50%);
+    color: #fff;
+}
+
+#hero h1 {
+    font-weight: bold;
+    text-shadow: -2px 0 #000,0 2px #000,2px 0 #000,0 -2px #000;
 }
 
 /*====================ABOUT====================*/

@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Scott Travers | Web Developer</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-spy="scroll" data-target="#fixed-navbar" data-offset="50">
+    <!--====================HEADER====================-->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="fixed-navbar">
         <div class="container-fluid">
             <div class="navbar-header" id="home">
@@ -31,10 +32,20 @@
             </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div class="row"><!--====================CALL TO ACTION====================-->
-        <div class="x-tall col-lg-12" id="hero"></div>
-    </div>
+    <!--====================CALL TO ACTION====================-->
+    <section>
+        <div class="jumbotron">
+            <div class="row text-center">
+                <div class="x-tall col-lg-12" id="hero">
+                    <h1 class="text-uppercase">Build Your Webspace</h1>
+                    <p><a class="btn btn-danger btn-lg" href="#" role="button">Get Started</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====================MAIN CONTENT====================-->
     <div class="container">
+        <!--====================ABOUT====================-->
         <section>
             <div class="page-header" id="about">
                 <h2>About</h2>
@@ -46,6 +57,7 @@
                 <div class="medium col-lg-7">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aliquid at dolor quos deleniti ducimus modi delectus esse consectetur perferendis aperiam maxime, repellendus eveniet. Eius distinctio incidunt perspiciatis veritatis porro, illum eveniet quod optio neque repellat maiores tempore asperiores obcaecati quae laborum mollitia tenetur, deleniti laudantium illo soluta, sit fugiat reprehenderit! Maxime eligendi quos ab voluptate, commodi similique porro illum at saepe molestias sunt doloremque ipsam a unde delectus quod! Autem eligendi dolores, qui possimus consectetur ipsam dolorem nobis id debitis mollitia voluptates velit eum eos fuga, ullam eaque accusamus! Voluptatum dolore, architecto consectetur quisquam modi nulla fugiat consequatur quam, amet quos, impedit.</p>
                 </div>
+                <!--====================SKILLS====================-->
                 <div class="short col-lg-2">
                     <div class="row">
                         <div class="short col-lg-12">
@@ -53,8 +65,8 @@
                         </div>
                         <div class="x-short col-lg-12">
                             <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                    <span class="sr-only">80% Complete (success)</span>
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                    <span class="sr-only">65% Complete (success)</span>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +75,8 @@
                         </div>
                         <div class="x-short col-lg-12">
                             <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                    <span class="sr-only">80% Complete (success)</span>
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                    <span class="sr-only">50% Complete (success)</span>
                                 </div>
                             </div>
                         </div>
@@ -73,8 +85,8 @@
                         </div>
                         <div class="x-short col-lg-12">
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                    <span class="sr-only">60% Complete (success)</span>
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                    <span class="sr-only">30% Complete (success)</span>
                                 </div>
                             </div>
                         </div>
@@ -83,14 +95,15 @@
                         </div>
                         <div class="x-short col-lg-12">
                             <div class="progress">
-                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                    <span class="sr-only">40% Complete (success)</span>
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                    <span class="sr-only">20% Complete (success)</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        <!--====================RESPONSIVE DESIGN====================-->
         <div class="row">
             <div class="tall col-lg-8">
                 <img src="img/Responsive_Web_Design_Demo_Template.svg.png" class="img-responsive" alt="">
@@ -98,30 +111,42 @@
             <div class="tall col-lg-4"></div>
         </div>
         </section>
+        <!--====================PROJECTS====================-->
         <section>
             <div class="page-header" id="projects">
                 <h2>Projects</h2>
             </div>
             <div class="row">
-                <div class="tall col-lg-8"></div>
+                <div class="tall col-lg-8">
+                    <img src="http://lorempixel.com/960/540/people" alt="Project 1" class="img-responsive">
+                </div>
                 <div class="tall col-lg-4"></div>
             </div>
             <div class="row">
-                <div class="tall col-lg-4"></div>
-                <div class="tall col-lg-8"></div>
+                <div class="tall col-lg-4">
+
+                </div>
+                <div class="tall col-lg-8">
+                    <img src="http://lorempixel.com/960/540/sports" alt="Project 1" class="img-responsive">
+                </div>
             </div>
             <div class="row">
-                <div class="tall col-lg-8"></div>
+                <div class="tall col-lg-8">
+                    <img src="http://lorempixel.com/960/540/abstract" alt="Project 1" class="img-responsive">
+                </div>
                 <div class="tall col-lg-4"></div>
             </div>
         </section>
+        <!--====================CONTACT====================-->
         <section>
             <div class="page-header" id="contact">
                 <h2>Contact</h2>
             </div>
-            <div class="row gutter-bottom-small">
+            <div class="row">
                 <div class="tall col-lg-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1608715.1222448454!2d-121.86235407758281!3d38.046580176698654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900d737b442181%3A0x5876f5d1044fcbd8!2sStockton%2C+CA!5e0!3m2!1sen!2sus!4v1488932357836" width="560" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1608715.1222448454!2d-121.86235407758281!3d38.046580176698654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900d737b442181%3A0x5876f5d1044fcbd8!2sStockton%2C+CA!5e0!3m2!1sen!2sus!4v1488932357836" class="embed-responsive-item" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div class="tall col-lg-6">
                     <form>
@@ -147,17 +172,18 @@
             </div>
         </section>
     </div>
-    <div class="row"><!--====================FOOTER====================-->
-        <div class="short col-lg-1 col-lg-offset-4">
+    <!--====================FOOTER====================-->
+    <div class="row">
+        <div class="short col-sm-1 col-sm-offset-4">
             <a href="https://www.facebook.com/scott.travers" class="social-media"><i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a>
         </div>
-        <div class="short col-lg-1">
+        <div class="short col-sm-1">
             <a href="https://twitter.com/Scott_Travers" class="social-media"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
         </div>
-        <div class="short col-lg-1">
+        <div class="short col-sm-1">
             <a href="https://github.com/ScottMTravers" class="social-media"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
         </div>
-        <div class="short col-lg-1">
+        <div class="short col-sm-1">
             <a href="https://www.linkedin.com/in/scottmtravers/" class="social-media"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
         </div>
         <div class="short col-lg-2 col-lg-offset-1">
