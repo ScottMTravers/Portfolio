@@ -1,7 +1,7 @@
 /*====================UNIVERSALS====================*/
 * {
     font-family: 'Source Sans Pro', sans-serif;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
@@ -42,8 +42,8 @@ p {
     height: 640px;
 }
 
-.gutter-bottom-medium {
-    margin-bottom: 60px;
+.gutter-bottom-small {
+    margin-bottom: 40px;
 }
 
 /*====================HEADER====================*/
