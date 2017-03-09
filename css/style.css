@@ -25,22 +25,6 @@ p {
     color: #fff;
 }
 
-.x-short {
-    height: 30px;
-}
-
-.short {
-    height: 60px;
-}
-
-.medium {
-    height: 320px;
-}
-
-.tall {
-    height: 480px;
-}
-
 .x-tall {
     height: 640px;
 }
@@ -51,7 +35,7 @@ p {
 
 .parallax-scroll {
     position: relative;
-    top: 50%;
+    top: 40%;
     margin-top: -60px;
 }
 
@@ -68,6 +52,9 @@ p {
 
 
 /*====================CALL TO ACTION====================*/
+.jumbotron {
+    padding: 0;
+}
 
 #hero {
     position: relative;
@@ -91,3 +78,8 @@ p {
     margin-top: 350px;
 }
 /*====================ABOUT====================*/
+
+/*====================FOOTER====================*/
+i {
+    padding: 0 10px;
+}
