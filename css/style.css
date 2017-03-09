@@ -1,3 +1,7 @@
+/*====================FONTS====================*/
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+@import url('https://fonts.googleapis.com/css?family=Raleway:700,700i');
+
 /*====================UNIVERSALS====================*/
 * {
     font-family: 'Source Sans Pro', sans-serif;
@@ -10,7 +14,6 @@ body {
 
 p {
     font-size: 18px;
-
 }
 
 .page-header {
@@ -22,22 +25,6 @@ p {
     color: #fff;
 }
 
-.x-short {
-    height: 30px;
-}
-
-.short {
-    height: 60px;
-}
-
-.medium {
-    height: 320px;
-}
-
-.tall {
-    height: 480px;
-}
-
 .x-tall {
     height: 640px;
 }
@@ -46,16 +33,53 @@ p {
     margin-bottom: 40px;
 }
 
+.parallax-scroll {
+    position: relative;
+    top: 40%;
+    margin-top: -60px;
+}
+
 /*====================HEADER====================*/
+
+.active {
+    border-bottom: 2px solid #ff7000;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
 
 
 /*====================CALL TO ACTION====================*/
-
-#hero {
-    margin-top: -24px;
-    background-image: url('../img/call-to-action.jpg');
-    background-size: cover;
-    -webkit-filter: grayscale(50%);
+.jumbotron {
+    padding: 0;
 }
 
+#hero {
+    position: relative;
+    background-attachment: fixed;
+    margin-top: -60px;
+    margin-bottom: -50px;
+    background-image: url('../img/desert2.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    -webkit-filter: grayscale(50%);
+    color: #fff;
+}
+
+#hero h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+}
+
+#responsive-design {
+    width: 35%;
+    margin-top: 350px;
+}
 /*====================ABOUT====================*/
+
+/*====================FOOTER====================*/
+i {
+    padding: 0 10px;
+}
