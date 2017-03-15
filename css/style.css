@@ -1,8 +1,13 @@
 /*====================FONTS====================*/
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 .pt-serif-font {
     font-family: 'PT Serif', serif;
+}
+
+.satisfy-font {
+    font-family: 'Satisfy', cursive;
 }
 
 /*====================UNIVERSALS====================*/
@@ -26,6 +31,14 @@ p {
 
 .white-text {
     color: #fff;
+}
+
+.black-background {
+    background-color: #000;
+}
+
+.tall {
+    height: 320px;
 }
 
 .x-tall {
@@ -74,22 +87,25 @@ p {
 #hero h1 {
     font-size: 80px;
     color: #fff;
-    text-shadow: 4px 2px #ff7000;
+    text-shadow: 4px 2px #000;
 }
 
-#responsive-design {
-    width: 35%;
-    margin-top: 350px;
-}
 /*====================ABOUT====================*/
+.progress-bar {
+    border-right: 2px solid #ff7000;
+}
+
+/*====================PROJECTS====================*/
 
 /*====================CONTACT====================*/
 #contact {
     margin-bottom: 72px;
 }
+
 #budget{
     padding-left: 0;
 }
+
 #start-date{
     padding-right: 0;
 }
