@@ -1,6 +1,9 @@
 /*====================FONTS====================*/
-@import url('https://fonts.googleapis.com/css?family=Bevan');
-@import url('https://fonts.googleapis.com/css?family=Raleway:700,700i');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+
+.pt-serif-font {
+    font-family: 'PT Serif', serif;
+}
 
 /*====================UNIVERSALS====================*/
 * {
@@ -69,8 +72,9 @@ p {
 }
 
 #hero h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 48px;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 4px 2px #ff7000;
 }
 
 #responsive-design {
