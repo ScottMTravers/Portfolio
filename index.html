@@ -28,7 +28,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#about">About</a></li>
                         <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -41,7 +41,7 @@
                 <div class="x-tall hidden-xs" id="hero">
                     <div class="parallax-scroll">
                         <h1 class="text-uppercase">Build Your Webspace</h1>
-                        <p><a class="btn btn-default btn-lg" href="#" role="button">Let's Get Started</a></p>
+                        <p><a class="btn btn-default btn-lg" href="#contact-section" role="button">Let's Get Started</a></p>
                     </div>
                 </div>
             </div>
@@ -151,35 +151,72 @@
         </section>
         <!--====================CONTACT====================-->
         <section>
-            <div class="page-header" id="contact">
+            <div class="page-header" id="contact-section">
                 <h2>Contact</h2>
             </div>
             <div class="row">
-                <div class="hidden-xs col-sm-6">
+                <div class="hidden-xs col-md-5 gutter-bottom-small">
                     <div class="embed-responsive embed-responsive-4by3">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1608715.1222448454!2d-121.86235407758281!3d38.046580176698654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900d737b442181%3A0x5876f5d1044fcbd8!2sStockton%2C+CA!5e0!3m2!1sen!2sus!4v1488932357836" class="embed-responsive-item" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <form>
-                        <div class="form-group">
-                            <label for="InputName">Name</label>
-                            <input type="text" class="form-control" id="InputName" placeholder="Name">
+                <div class="col-md-6 col-md-offset-1">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#contact" data-toggle="tab" id="contact-tab">Contact</a></li>
+                        <li><a href="#hire" data-toggle="tab" id="hire-tab">For Hire</a></li>
+                    </ul>
+                    <div class="tab-content" id="tabs">
+                        <div class="tab-pane active" id="contact">
+                            <form class="row">
+                                <div class="form-group">
+                                    <label for="InputName">Name</label>
+                                    <input type="text" class="form-control" id="InputName" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputEmail">Email</label>
+                                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputCompany">Company</label>
+                                    <input type="text" class="form-control" id="InputCompany" placeholder="Company">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputMessage">Message</label>
+                                    <textarea name="InputMessage" class="form-control" id="InputMessage" rows="6" placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default pull-right">Submit</button>
+                            </form>
                         </div>
-                        <div class="form-group">
-                            <label for="InputEmail">Email</label>
-                            <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                        <div class="tab-pane" id="hire">
+                            <form class="row">
+                                <div class="form-group">
+                                    <label for="InputName">Name</label>
+                                    <input type="text" class="form-control" id="InputName" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputEmail">Email</label>
+                                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputCompany">Company</label>
+                                    <input type="text" class="form-control" id="InputCompany" placeholder="Company">
+                                </div>
+                                <div class="form-group col-xs-6" id="budget">
+                                    <label for="InputBudget">Estimated Budget</label>
+                                    <input type="text" class="form-control" id="InputBudget" placeholder="eg. $1500">
+                                </div>
+                                <div class="form-group col-xs-6" id="start-date">
+                                    <label for="StartDate">Estimated Start Date</label>
+                                    <input type="date" class="form-control" id="InputDate" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputProject">Project Details</label>
+                                    <textarea name="InputProject" class="form-control" id="InputProject" rows="6" placeholder="Please enter a brief description of your project."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default pull-right">Submit</button>
+                            </form>
                         </div>
-                        <div class="form-group">
-                            <label for="InputCompany">Company</label>
-                            <input type="text" class="form-control" id="InputCompany" placeholder="Company">
-                        </div>
-                        <div class="form-group">
-                            <label for="InputMessage">Message</label>
-                            <textarea name="InputMessage" class="form-control" id="InputMessage" rows="6" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-default pull-right">Submit</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -218,6 +255,16 @@
                 }
             });
         });
+        $(document).ready(function(){
+
+  $('#contact-tab').on('click', function() {
+    $('.nav-tabs li:first-child a').tab('show');
+  });
+  $('#hire-tab').on('click', function() {
+    $('.nav-tabs li:eq(1) a').tab('show');
+  });
+});
+
     </script>
 </body>
 </html>

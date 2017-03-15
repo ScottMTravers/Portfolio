@@ -41,7 +41,7 @@ p {
 
 /*====================HEADER====================*/
 
-.active {
+.nav > .active {
     border-bottom: 2px solid #ff7000;
 }
 
@@ -78,6 +78,17 @@ p {
     margin-top: 350px;
 }
 /*====================ABOUT====================*/
+
+/*====================CONTACT====================*/
+#contact {
+    margin-bottom: 72px;
+}
+#budget{
+    padding-left: 0;
+}
+#start-date{
+    padding-right: 0;
+}
 
 /*====================FOOTER====================*/
 i {
