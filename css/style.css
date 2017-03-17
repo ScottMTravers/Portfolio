@@ -26,7 +26,7 @@ p {
 
 .page-header {
     padding-top: 60px;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 
 .white-text {
@@ -85,12 +85,15 @@ p {
 }
 
 #hero h1 {
-    font-size: 80px;
+    font-size: 64px;
     color: #fff;
     text-shadow: 4px 2px #000;
 }
 
 /*====================ABOUT====================*/
+#about > h2 {
+
+}
 .progress-bar {
     border-right: 2px solid #ff7000;
 }
