@@ -106,6 +106,33 @@ p {
     margin-top: 25px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+.visual:hover .overlay {
+    opacity: 1;
+}
+
+#black-background {
+    background-color: #000;
+}
+
+#pet-store-logo {
+    font-family: 'Satisfy', cursive;
+    color: #ff827b;
+    font-size: 32px;
+}
+
 /*====================CONTACT====================*/
 #contact {
     margin-bottom: 72px;
