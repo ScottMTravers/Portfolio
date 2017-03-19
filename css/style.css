@@ -96,6 +96,15 @@ p {
 }
 
 /*====================PROJECTS====================*/
+#projects .row .col-sm-6 {
+    min-height: 250px;
+    border: 1px solid #000;
+}
+
+#projects img {
+    max-height: 200px;
+    margin-top: 25px;
+}
 
 /*====================CONTACT====================*/
 #contact {
