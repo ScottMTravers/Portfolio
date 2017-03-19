@@ -11,6 +11,10 @@
     font-family: 'Satisfy', cursive;
 }
 
+.gloria-font {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
 /*====================UNIVERSALS====================*/
 * {
     font-family: 'Source Sans Pro', sans-serif;
@@ -34,8 +38,8 @@ p {
     color: #fff;
 }
 
-.white-background {
-    background-color: #fff;
+.light-grey-background {
+    background-color: #d3d3d3;
 }
 
 .black-background {
@@ -64,7 +68,7 @@ p {
 
 .parallax-scroll {
     position: relative;
-    top: 40%;
+    top: 25%;
     margin-top: -60px;
 }
 
@@ -103,6 +107,11 @@ p {
     text-shadow: 4px 2px #000;
 }
 
+#hero img {
+    max-width: 20%;
+    margin: auto;
+}
+
 /*====================ABOUT====================*/
 .progress-bar {
     border-right: 2px solid #ff7000;
@@ -111,7 +120,6 @@ p {
 /*====================PROJECTS====================*/
 #projects .row .visual {
     min-height: 250px;
-    border: 1px solid #000;
 }
 
 #projects img {
@@ -140,13 +148,11 @@ p {
 }
 
 #pet-store-logo {
-    font-family: 'Satisfy', cursive;
-    color: #ff827b;
     font-size: 32px;
+    color: #ff827b;
 }
 
 #weather-logo {
-    font-family: 'Gloria Hallelujah', cursive;
     font-size: 32px;
     color: #F1F227;
 }
