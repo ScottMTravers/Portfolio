@@ -34,8 +34,16 @@ p {
     color: #fff;
 }
 
+.white-background {
+    background-color: #fff;
+}
+
 .black-background {
     background-color: #000;
+}
+
+.blue-background {
+    background-color: #337ab7;
 }
 
 .tall {
@@ -82,7 +90,7 @@ p {
     background-attachment: fixed;
     margin-top: -60px;
     margin-bottom: -50px;
-    background-image: url('../img/desert2.jpg');
+    background-image: url('../img/call-to-action.jpg');
     background-size: cover;
     background-position: bottom center;
     -webkit-filter: grayscale(50%);
@@ -121,18 +129,13 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #fff;
 }
 
 .visual:hover .overlay {
     opacity: 1;
 }
 
-#black-background {
-    background-color: #000;
-}
-
-#projects #black-background > img.gutter-top-medium {
+#projects .black-background > img.gutter-top-medium {
     margin-top: 80px;
 }
 
@@ -145,7 +148,7 @@ p {
 #weather-logo {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 32px;
-    color: #80503d;
+    color: #F1F227;
 }
 
 /*====================CONTACT====================*/
