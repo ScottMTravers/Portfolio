@@ -37,16 +37,20 @@
         </nav>
     </header>
     <!--====================CALL TO ACTION====================-->
-    <section>
+    <section class="container-fluid">
         <div class="jumbotron">
             <div class="row text-center">
                 <div class="x-tall hidden-xs" id="hero">
                     <div class="parallax-scroll">
                         <img src="img/st_square.jpg" class="img-responsive img-circle" alt="Profile Picture">
-                        <h1 class="text-uppercase pt-serif-font">Scott Travers</h1>
+                        <h1 class="text-uppercase pt-serif-font"><span>Scott Travers</span></h1>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="hidden-sm hidden-md hidden-lg text-center">
+                <img src="img/st_square.jpg" class="img-responsive img-circle" alt="Profile Picture">
+                <h1 class="text-uppercase pt-serif-font"><span>Scott Travers</span></h1>
         </div>
     </section>
     <!--====================MAIN CONTENT====================-->
@@ -56,16 +60,13 @@
                 <h2>About</h2>
             </div>
             <div class="row landing">
-                <!--====================PROFILE PICTURE====================-->
-                <div class="col-sm-4 col-lg-3">
-
-                </div>
                 <!--====================ABOUT ME====================-->
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <p class="text-justify">I am a front-end freelance web developer skilled in HTML, CSS, Javascript, and Bootstrap.</p>
+                    <img src="img/responsive_web_design.png" class="img-responsive" alt="Responsive Web Design">
                 </div>
                 <!--====================SKILLS====================-->
-                <div class="col-sm-2 col-sm-offset-2">
+                <div class="col-sm-4 col-sm-offset-2">
                     <div class="row text-center">
                         <div class="">
                             <h3>HTML</h3>
@@ -112,8 +113,8 @@
             </div>
         </section>
         <!--====================PROJECTS====================-->
-        <div class="container" id="projects-section">
-            <div class="page-header">
+        <div class="container">
+            <div class="page-header" id="projects-section">
                 <h2>Projects</h2>
             </div>
         </div>
@@ -145,7 +146,7 @@
                     <div class="col-sm-4 col-md-4 visual blue-background">
                         <img src="img/sun.png" class="img-responsive center-block" alt="Weather Machine">
                         <div class="overlay blue-background" id="blue-background">
-                            <h3 class="gutter-top-medium gutter-bottom-small gloria-font" ><span class="no-wrap" id="weather-logo">Weather Machine</span></h3>
+                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap gloria-font" id="weather-logo">Weather Machine</span></h3>
                             <i class="devicon-javascript-plain colored fa-3x"></i>
                         </div>
                     </div>
@@ -226,8 +227,8 @@
             </div>
         </section>
     <!--====================FOOTER====================-->
-    <footer class="container-fluid">
-        <div class="row text-center white-text black-background">
+    <footer class="container-fluid gutter-top-small">
+        <div class="row text-center gutter-top-small white-text black-background">
             <a href="https://github.com/ScottMTravers" target="_blank" class="white-text"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/scottmtravers/" target="_blank" class="white-text"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
             <a href="http://codepen.io/scottmtravers/" target="_blank" class="white-text"><i class="fa fa-codepen fa-4x" aria-hidden="true"></i></a>
