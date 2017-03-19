@@ -1,6 +1,7 @@
 /*====================FONTS====================*/
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 .pt-serif-font {
     font-family: 'PT Serif', serif;
@@ -47,6 +48,10 @@ p {
 
 .gutter-bottom-small {
     margin-bottom: 40px;
+}
+
+.gutter-top-medium {
+    margin-top: 80px;
 }
 
 .parallax-scroll {
@@ -96,7 +101,7 @@ p {
 }
 
 /*====================PROJECTS====================*/
-#projects .row .col-sm-6 {
+#projects .row .visual {
     min-height: 250px;
     border: 1px solid #000;
 }
@@ -127,10 +132,20 @@ p {
     background-color: #000;
 }
 
+#projects #black-background > img.gutter-top-medium {
+    margin-top: 80px;
+}
+
 #pet-store-logo {
     font-family: 'Satisfy', cursive;
     color: #ff827b;
     font-size: 32px;
+}
+
+#weather-logo {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 32px;
+    color: #80503d;
 }
 
 /*====================CONTACT====================*/
