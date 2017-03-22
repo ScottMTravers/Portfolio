@@ -50,6 +50,10 @@ p {
     background-color: #337ab7;
 }
 
+.purple-background {
+    background-color: #311C34;
+}
+
 .tall {
     height: 320px;
 }
@@ -167,13 +171,15 @@ p {
     margin-top: 80px;
 }
 
-#pet-store-logo {
+#projects div h3 {
     font-size: 32px;
+}
+
+#pet-store-logo {
     color: #ff827b;
 }
 
 #weather-logo {
-    font-size: 32px;
     color: #F1F227;
 }
 
