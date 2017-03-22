@@ -215,6 +215,9 @@ footer a i:hover {
     .visual > img{
         transform: translateY(25px);
     }
+    .overlay {
+        display: hidden;
+    }
 }
 
 @media only screen and (min-width: 768px) {
