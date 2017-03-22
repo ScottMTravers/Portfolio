@@ -38,6 +38,10 @@ p {
     color: #fff;
 }
 
+.orange-text {
+    color: #ff7000;
+}
+
 .light-grey-background {
     background-color: #d3d3d3;
 }
@@ -137,6 +141,7 @@ p {
 
 /*====================ABOUT====================*/
 .progress-bar {
+    background-color: #222;
     border-right: 2px solid #ff7000;
 }
 
@@ -207,7 +212,7 @@ footer a i:hover {
 
 /*====================MEDIA QUERIES====================*/
 @media only screen and (max-width: 767px) {
-    .visual img{
+    .visual > img{
         transform: translateY(25px);
     }
 }
