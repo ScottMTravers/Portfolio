@@ -141,7 +141,7 @@ p {
 
 /*====================ABOUT====================*/
 .progress-bar {
-    background-color: #222;
+    background-color: #555;
     border-right: 2px solid #ff7000;
 }
 
@@ -213,10 +213,12 @@ footer a i:hover {
 /*====================MEDIA QUERIES====================*/
 @media only screen and (max-width: 767px) {
     .visual > img{
-        transform: translateY(25px);
+        -webkit-transform: translate(-225px, -55px) scale(.3);
+
     }
     .overlay {
-        display: hidden;
+        opacity: 1;
+        background: transparent;
     }
 }
 
