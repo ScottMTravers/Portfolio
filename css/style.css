@@ -201,6 +201,10 @@ p {
     padding-right: 0;
 }
 
+.nav-tabs.nav-justified>li>a {
+    color: #000;
+}
+
 /*====================FOOTER====================*/
 footer a i, footer i {
     color: #9d9d9d;
