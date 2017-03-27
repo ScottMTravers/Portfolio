@@ -217,9 +217,10 @@ footer a i:hover {
 /*====================MEDIA QUERIES====================*/
 @media only screen and (max-width: 767px) {
     .visual > img{
-        -webkit-transform: translateY(-55px) scale(.3);
+        -webkit-transform: translateY(-25px) scale(.4);
     }
     .overlay {
+        -webkit-transform: translateY(35px);
         opacity: 1;
         background: transparent;
     }
