@@ -55,6 +55,10 @@ p {
     background-color: #337ab7;
 }
 
+.dark-blue-background {
+    background-color: #34495E;
+}
+
 .purple-background {
     background-color: #311C34;
 }
@@ -206,6 +210,10 @@ p {
 }
 
 /*====================FOOTER====================*/
+footer .black-background:last-child{
+    padding-bottom: 10px;
+}
+
 footer a i, footer i {
     color: #9d9d9d;
     padding: 0 10px;
