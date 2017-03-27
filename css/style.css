@@ -22,6 +22,7 @@
 }
 
 body {
+    position: relative;
     padding-top: 40px;
 }
 
@@ -36,6 +37,10 @@ p {
 
 .white-text {
     color: #fff;
+}
+
+.orange-text {
+    color: #ff7000;
 }
 
 .light-grey-background {
@@ -86,7 +91,7 @@ p {
 
 /*====================HEADER====================*/
 
-.nav > .active {
+.nav li.active {
     border-bottom: 2px solid #ff7000;
 }
 
@@ -94,7 +99,6 @@ p {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
 }
-
 
 /*====================CALL TO ACTION====================*/
 .jumbotron {
@@ -137,6 +141,7 @@ p {
 
 /*====================ABOUT====================*/
 .progress-bar {
+    background-color: #555;
     border-right: 2px solid #ff7000;
 }
 
@@ -196,6 +201,10 @@ p {
     padding-right: 0;
 }
 
+.nav-tabs.nav-justified>li>a {
+    color: #000;
+}
+
 /*====================FOOTER====================*/
 footer a i, footer i {
     color: #9d9d9d;
@@ -207,8 +216,12 @@ footer a i:hover {
 
 /*====================MEDIA QUERIES====================*/
 @media only screen and (max-width: 767px) {
-    .visual img{
-        transform: translateY(25px);
+    .visual > img{
+        -webkit-transform: translateY(-55px) scale(.3);
+    }
+    .overlay {
+        opacity: 1;
+        background: transparent;
     }
 }
 
