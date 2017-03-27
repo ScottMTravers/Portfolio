@@ -162,6 +162,15 @@
                         </div>
                     </div>
                 </a>
+                <a href="http://codepen.io/scottmtravers/full/gmKMvE/" target="_blank">
+                    <div class="col-sm-6 col-md-4 visual white-text dark-blue-background">
+                        <img src="img/todo.png" class="img-responsive center-block" alt="ToDo List">
+                        <div class="overlay dark-blue-background">
+                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap gloria-font" id="workout-logo">ToDo List</span></h3>
+                            <i class="devicon-javascript-plain colored fa-3x"></i>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <!--====================CONTACT====================-->
@@ -271,7 +280,7 @@
           // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
             // Prevent default anchor click behavior
-                // event.preventDefault();
+                event.preventDefault();
             // Store hash
                 var hash = this.hash;
             // Using jQuery's animate() method to add smooth page scroll
