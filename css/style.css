@@ -55,6 +55,10 @@ p {
     background-color: #337ab7;
 }
 
+.white-background {
+    background-color: #fff;
+}
+
 .dark-blue-background {
     background-color: #34495E;
 }
@@ -128,6 +132,11 @@ p {
     border-bottom: 4px solid #ff7000;
 }
 
+.hidden-sm.hidden-md.hidden-lg img {
+    margin: auto;
+    max-width: 300px;
+}
+
 .hidden-sm h1 span {
     border-bottom: 4px solid #ff7000;
 }
@@ -193,8 +202,8 @@ p {
 }
 
 /*====================CONTACT====================*/
-.nav-tabs.nav-justified>li>a {
-    color: #000;
+input, textarea {
+    margin-bottom: 10px;
 }
 
 #cali-map-wrapper {

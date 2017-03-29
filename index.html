@@ -157,7 +157,7 @@
                     <div class="col-sm-6 col-md-4 visual white-text purple-background">
                         <img src="img/workout.png" class="img-responsive center-block" alt="Workout Timer">
                         <div class="overlay purple-background">
-                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap gloria-font" id="workout-logo">Workout Timer</span></h3>
+                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap pt-serif-font" id="workout-logo">Workout Timer</span></h3>
                             <i class="devicon-javascript-plain colored fa-3x"></i>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                     <div class="col-sm-6 col-md-4 visual white-text dark-blue-background">
                         <img src="img/todo.png" class="img-responsive center-block" alt="ToDo List">
                         <div class="overlay dark-blue-background">
-                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap gloria-font" id="workout-logo">ToDo List</span></h3>
+                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap pt-serif-font" id="workout-logo">ToDo List</span></h3>
                             <i class="devicon-javascript-plain colored fa-3x"></i>
                         </div>
                     </div>
@@ -180,31 +180,27 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 white-background">
                         <form action="https://formspree.io/scott.m.travers@gmail.com" method="POST" class="row">
-                            <div class="form-group">
-                                <label for="InputName">Name</label>
-                                <input type="text" class="form-control" id="InputName" name="name" placeholder="Name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="InputEmail">Email</label>
-                                <input type="email" class="form-control" id="InputEmail" name="_replyto" placeholder="Email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="InputCompany">Company</label>
-                                <input type="text" class="form-control" id="InputCompany"
-                                name="company" placeholder="Company">
-                            </div>
-                            <div class="form-group">
-                                <label for="InputMessage">Message</label>
-                                <textarea name="message" class="form-control" id="InputMessage" rows="6" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="checkbox">
-    						    <label>
-    						        <input type="checkbox"> I'm not a robot
-    						    </label>
-			          	    </div>
-                            <button type="submit" class="btn btn-default pull-right">Submit</button>
+
+                            <label>Name</label>
+                            <input type="text" name="name" class="form-control"  placeholder="Name" required>
+
+                            <label>Email</label>
+                            <input type="email" name="_replyto"  class="form-control" placeholder="Email" required>
+
+                            <label>Company</label>
+                            <input type="text" name="company"  class="form-control"
+                            placeholder="Company">
+
+                            <label>Message</label>
+                            <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+
+                            <input type="text" name="_gotcha" style="display:none" />
+
+                            <button type="submit" class="btn btn-default pull-right" value="Send">Submit</button>
+
+                            <input type="hidden" name="_next" value="scottmtravers.github.io" />
                         </form>
                     </div>
                     <div class="hidden-xs col-sm-6 gutter-top-small">
