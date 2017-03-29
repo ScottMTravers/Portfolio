@@ -181,80 +181,41 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <ul class="nav nav-tabs nav-justified">
-                            <li class="active"><a href="#contact" data-toggle="tab" id="contact-tab">Contact</a></li>
-                            <li>
-                                <a href="#hire" data-toggle="tab" id="hire-tab">For Hire<i class="fa fa-arrow-down fa-3x" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="tabs">
-                            <div class="tab-pane fade in active" id="contact">
-                                <form class="row">
-                                    <div class="form-group">
-                                        <label for="InputName">Name</label>
-                                        <input type="text" class="form-control" id="InputName" placeholder="Name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputEmail">Email</label>
-                                        <input type="email" class="form-control" id="InputEmail" placeholder="Email" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputCompany">Company</label>
-                                        <input type="text" class="form-control" id="InputCompany" placeholder="Company">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputMessage">Message</label>
-                                        <textarea name="InputMessage" class="form-control" id="InputMessage" rows="6" placeholder="Message" required></textarea>
-                                    </div>
-                                    <div class="checkbox">
-            						    <label>
-            						        <input type="checkbox"> I'm not a robot
-            						    </label>
-					          	    </div>
-                                    <button type="submit" class="btn btn-default pull-right">Submit</button>
-                                </form>
+                        <form action="https://formspree.io/scott.m.travers@gmail.com" method="POST" class="row">
+                            <div class="form-group">
+                                <label for="InputName">Name</label>
+                                <input type="text" class="form-control" id="InputName" name="name" placeholder="Name" required>
                             </div>
-                            <div class="tab-pane fade" id="hire">
-                                <form class="row">
-                                    <div class="form-group">
-                                        <label for="InputName">Name</label>
-                                        <input type="text" class="form-control" id="InputName" placeholder="Name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputEmail">Email</label>
-                                        <input type="email" class="form-control" id="InputEmail" placeholder="Email" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputCompany">Company</label>
-                                        <input type="text" class="form-control" id="InputCompany" placeholder="Company" required>
-                                    </div>
-                                    <div class="form-group col-xs-6" id="budget">
-                                        <label for="InputBudget">Estimated Budget</label>
-                                        <input type="text" class="form-control" id="InputBudget" placeholder="eg. $1500">
-                                    </div>
-                                    <div class="form-group col-xs-6" id="start-date">
-                                        <label for="StartDate">Estimated Start Date</label>
-                                        <input type="date" class="form-control" id="InputDate" placeholder="">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputProject">Project Details</label>
-                                        <textarea name="InputProject" class="form-control" id="InputProject" rows="6" placeholder="Please enter a brief description of your project." required></textarea>
-                                    </div>
-                                    <div class="checkbox">
-            						    <label>
-            						        <input type="checkbox"> I'm not a robot
-            						    </label>
-					          	    </div>
-                                    <button type="submit" class="btn btn-default pull-right">Submit</button>
-                                </form>
+                            <div class="form-group">
+                                <label for="InputEmail">Email</label>
+                                <input type="email" class="form-control" id="InputEmail" name="_replyto" placeholder="Email" required>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="InputCompany">Company</label>
+                                <input type="text" class="form-control" id="InputCompany"
+                                name="company" placeholder="Company">
+                            </div>
+                            <div class="form-group">
+                                <label for="InputMessage">Message</label>
+                                <textarea name="message" class="form-control" id="InputMessage" rows="6" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="checkbox">
+    						    <label>
+    						        <input type="checkbox"> I'm not a robot
+    						    </label>
+			          	    </div>
+                            <button type="submit" class="btn btn-default pull-right">Submit</button>
+                        </form>
                     </div>
-                    <div class="hidden-xs col-sm-6 gutter-top-medium">
+                    <div class="hidden-xs col-sm-6 gutter-top-small">
                         <div class="center-block" id="cali-map-wrapper">
                             <img id="cali-map" class="center-block" src="img/Map_of_California_outline.svg.png">
                             <i class="fa fa-map-marker fa-4x" aria-hidden="true"></i>
                         </div>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-7 text-center">
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                        <address>700 Van Ness Ave | Fresno, CA 93721</address><span id="tel">(949) 636-6643</span>
                     </div>
                 </div><!-- END ROW -->
             </div>
