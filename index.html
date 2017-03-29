@@ -64,8 +64,8 @@
             <div class="row landing">
                 <!--====================ABOUT ME====================-->
                 <div class="col-sm-6">
-                    <p class="text-justify">My name is Scott and I am a front-end freelance web developer skilled in HTML, CSS, Javascript, and Bootstrap. I have a strong passion for taking an idea in my head and telling a computer to perform the heavy lifting. When I'm not coding, you can probably find me trying to make a little white ball locate a 4 and 1/4 inch wide hole in the ground hundreds of yards away. </p>
-                    <!-- <img src="img/responsive_web_design.png" class="img-responsive" alt="Responsive Web Design"> -->
+                    <p class="text-justify">My name is Scott and I am a front-end freelance web developer skilled in HTML, CSS, Javascript, and Bootstrap. The sliders on the right were taken from online assessments you can find at <a href="https://tests4geeks.com" target="_blank">Tests 4 Geeks</a>.</p>
+                    <p class="text-justify">I have a strong passion for taking an idea in my head and telling a computer to perform the heavy lifting. When I'm not coding, you can probably find me trying to make a little white ball locate a 4 and 1/4 inch wide hole in the ground hundreds of yards away. I used to be good at golf. I still am, but I used to too.</p>
                 </div>
                 <!--====================SKILLS====================-->
                 <div class="col-sm-4 col-sm-offset-2">
@@ -180,7 +180,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="hidden-xs hidden-sm col-md-5 gutter-bottom-small">
+                    <div class="hidden-xs hidden-sm col-md-5 gutter-top-medium">
                         <div class="embed-responsive embed-responsive-4by3">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12790.27222361828!2d-119.7831354!3d36.7329338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb32dda71cf0730a0!2sBitwise+South+Stadium!5e0!3m2!1sen!2sus!4v1490154243604" class="embed-responsive-item" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
@@ -188,18 +188,20 @@
                     <div class="col-md-6 col-md-offset-1">
                         <ul class="nav nav-tabs nav-justified">
                             <li class="active"><a href="#contact" data-toggle="tab" id="contact-tab">Contact</a></li>
-                            <li><a href="#hire" data-toggle="tab" id="hire-tab">For Hire</a></li>
+                            <li>
+                                <a href="#hire" data-toggle="tab" id="hire-tab">For Hire<i class="fa fa-arrow-down fa-3x" aria-hidden="true"></i></a>
+                            </li>
                         </ul>
                         <div class="tab-content" id="tabs">
                             <div class="tab-pane fade in active" id="contact">
                                 <form class="row">
                                     <div class="form-group">
                                         <label for="InputName">Name</label>
-                                        <input type="text" class="form-control" id="InputName" placeholder="Name">
+                                        <input type="text" class="form-control" id="InputName" placeholder="Name" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="InputEmail">Email</label>
-                                        <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                                        <input type="email" class="form-control" id="InputEmail" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="InputCompany">Company</label>
@@ -207,7 +209,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="InputMessage">Message</label>
-                                        <textarea name="InputMessage" class="form-control" id="InputMessage" rows="6" placeholder="Message"></textarea>
+                                        <textarea name="InputMessage" class="form-control" id="InputMessage" rows="6" placeholder="Message" required></textarea>
                                     </div>
                                     <div class="checkbox">
             						    <label>
@@ -221,15 +223,15 @@
                                 <form class="row">
                                     <div class="form-group">
                                         <label for="InputName">Name</label>
-                                        <input type="text" class="form-control" id="InputName" placeholder="Name">
+                                        <input type="text" class="form-control" id="InputName" placeholder="Name" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="InputEmail">Email</label>
-                                        <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+                                        <input type="email" class="form-control" id="InputEmail" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="InputCompany">Company</label>
-                                        <input type="text" class="form-control" id="InputCompany" placeholder="Company">
+                                        <input type="text" class="form-control" id="InputCompany" placeholder="Company" required>
                                     </div>
                                     <div class="form-group col-xs-6" id="budget">
                                         <label for="InputBudget">Estimated Budget</label>
@@ -241,7 +243,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="InputProject">Project Details</label>
-                                        <textarea name="InputProject" class="form-control" id="InputProject" rows="6" placeholder="Please enter a brief description of your project."></textarea>
+                                        <textarea name="InputProject" class="form-control" id="InputProject" rows="6" placeholder="Please enter a brief description of your project." required></textarea>
                                     </div>
                                     <div class="checkbox">
             						    <label>
@@ -253,20 +255,19 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><!-- END ROW -->
             </div>
         </section>
     <!--====================FOOTER====================-->
     <footer class="container-fluid gutter-top-small">
         <div class="row text-center gutter-top-small black-background">
-            <a href="https://github.com/ScottMTravers" target="_blank" class="white-text"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/scottmtravers/" target="_blank" class="white-text"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
-            <a href="https://jsfiddle.net/user/smtravers/fiddles/" target="_blank" class="white-text"><i class="fa fa-jsfiddle fa-4x" aria-hidden="true"></i></a>
-            <a href="pdf/Travers_Scott_Resume2017.pdf" target="_blank" class="white-text"><i class="fa fa-file-text fa-4x" aria-hidden="true"></i></a>
+            <a href="https://github.com/ScottMTravers" target="_blank" class="white-text"><i class="fa fa-github fa-4x" aria-hidden="true" title="Github"></i></a>
+            <a href="https://www.linkedin.com/in/scottmtravers/" target="_blank" class="white-text"><i class="fa fa-linkedin fa-4x" aria-hidden="true" title="Linked In"></i></a>
+            <a href="https://jsfiddle.net/user/smtravers/fiddles/" target="_blank" class="white-text"><i class="fa fa-jsfiddle fa-4x" aria-hidden="true" title="JSFiddle"></i></a>
+            <a href="pdf/Travers_Scott_Resume2017.pdf" target="_blank" class="white-text"><i class="fa fa-file-text fa-4x" aria-hidden="true" title="Resume"></i></a>
         </div>
         <div class="row text-center black-background">
             <i class="fa fa-copyright fa" aria-hidden="true">
-                2017
             </i>
         </div>
     </footer>
@@ -274,43 +275,6 @@
      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
      crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-        // Bootstrap Smooth Scroll
-        $("#fixed-navbar a").on('click', function(event) {
-          // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-            // Prevent default anchor click behavior
-                event.preventDefault();
-            // Store hash
-                var hash = this.hash;
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function(){
-            // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
-        });
-
-        // Contact Form Tab Toggle
-        $(document).ready(function(){
-
-            $('#contact-tab').on('click', function() {
-                $('.nav-tabs li:first-child a').tab('show');
-            });
-            $('#hire-tab').on('click', function() {
-                $('.nav-tabs li:eq(1) a').tab('show');
-            });
-        });
-        // Collapse Navbar at XS-Device
-        $('.navbar-collapse a').click(function (e) {
-            if  (window.innerWidth < 768){
-                $('.navbar-collapse').collapse('toggle');
-            }
-    });
-
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
