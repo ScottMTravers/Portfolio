@@ -157,7 +157,7 @@
                     <div class="col-sm-6 col-md-4 visual white-text purple-background">
                         <img src="img/workout.png" class="img-responsive center-block" alt="Workout Timer">
                         <div class="overlay purple-background">
-                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap gloria-font" id="workout-logo">Workout Timer</span></h3>
+                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap pt-serif-font" id="workout-logo">Workout Timer</span></h3>
                             <i class="devicon-javascript-plain colored fa-3x"></i>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                     <div class="col-sm-6 col-md-4 visual white-text dark-blue-background">
                         <img src="img/todo.png" class="img-responsive center-block" alt="ToDo List">
                         <div class="overlay dark-blue-background">
-                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap gloria-font" id="workout-logo">ToDo List</span></h3>
+                            <h3 class="gutter-top-medium gutter-bottom-small" ><span class="no-wrap pt-serif-font" id="workout-logo">ToDo List</span></h3>
                             <i class="devicon-javascript-plain colored fa-3x"></i>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 white-background">
                         <form action="https://formspree.io/scott.m.travers@gmail.com" method="POST" class="row">
 
                             <label>Name</label>
@@ -196,13 +196,11 @@
                             <label>Message</label>
                             <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
 
-                            <div class="checkbox">
-    						    <label>
-    						        <input type="checkbox"> I'm not a robot
-    						    </label>
-			          	    </div>
+                            <input type="text" name="_gotcha" style="display:none" />
 
                             <button type="submit" class="btn btn-default pull-right" value="Send">Submit</button>
+
+                            <input type="hidden" name="_next" value="scottmtravers.github.io" />
                         </form>
                     </div>
                     <div class="hidden-xs col-sm-6 gutter-top-small">

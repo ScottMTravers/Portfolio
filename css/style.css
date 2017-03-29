@@ -55,6 +55,10 @@ p {
     background-color: #337ab7;
 }
 
+.white-background {
+    background-color: #fff;
+}
+
 .dark-blue-background {
     background-color: #34495E;
 }
@@ -193,7 +197,7 @@ p {
 }
 
 /*====================CONTACT====================*/
-input {
+input, textarea {
     margin-bottom: 10px;
 }
 
