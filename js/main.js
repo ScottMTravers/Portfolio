@@ -46,15 +46,6 @@ for (let i = 0; i < requiredFields.length; i++){
     input.appendChild(requiredSpan);
 }
 
-// Hide Arrow when user clicks 'For Hire' tab
-var forHire = document.getElementById('hire-tab');
-forHire.addEventListener('click', hideArrow);
-function hideArrow(){
-    var arrow = document.querySelector('.fa-arrow-down');
-    arrow.style.display = 'none';
-}
-
-
 // Current Year
 var date = new Date();
 var year = date.getYear() + 1900;

@@ -193,29 +193,6 @@ p {
 }
 
 /*====================CONTACT====================*/
-#contact {
-    margin-bottom: 74px;
-}
-
-#budget{
-    padding-left: 0;
-}
-
-#start-date{
-    padding-right: 0;
-}
-
-.fa-arrow-down {
-    position: absolute;
-    animation: arrow 1.5s infinite;
-    color: #ff7000;
-}
-
-@keyframes arrow {
-    0% { transform: translate(-42px, -100px); }
-    100% { transform: translate(-42px, -48px); }
-}
-
 .nav-tabs.nav-justified>li>a {
     color: #000;
 }
@@ -237,8 +214,12 @@ p {
     transform: translate(130px, -225px);
 }
 
+.col-sm-offset-7 {
+    font-size: 18px;
+}
+
 address {
-    font-size: 24px;
+    margin: 0;
 }
 
 /*====================FOOTER====================*/
@@ -265,10 +246,6 @@ footer a i:hover {
         -webkit-transform: translateY(35px);
         opacity: 1;
         background: transparent;
-    }
-
-    .fa-arrow-down {
-        display: none;
     }
 }
 
