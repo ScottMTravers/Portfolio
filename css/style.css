@@ -193,8 +193,8 @@ p {
 }
 
 /*====================CONTACT====================*/
-.nav-tabs.nav-justified>li>a {
-    color: #000;
+input {
+    margin-bottom: 10px;
 }
 
 #cali-map-wrapper {
