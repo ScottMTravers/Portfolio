@@ -220,6 +220,27 @@ p {
     color: #000;
 }
 
+#cali-map-wrapper {
+    width: 340px;
+}
+
+#cali-map {
+    width: 340px;
+}
+
+.fa-map-marker {
+    color: #ff7000;
+}
+
+.fa-map-marker.fa-4x{
+    position: relative;
+    transform: translate(130px, -225px);
+}
+
+address {
+    font-size: 24px;
+}
+
 /*====================FOOTER====================*/
 footer .black-background:last-child{
     padding-bottom: 10px;
