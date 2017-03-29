@@ -132,6 +132,11 @@ p {
     border-bottom: 4px solid #ff7000;
 }
 
+.hidden-sm.hidden-md.hidden-lg img {
+    margin: auto;
+    max-width: 300px;
+}
+
 .hidden-sm h1 span {
     border-bottom: 4px solid #ff7000;
 }
