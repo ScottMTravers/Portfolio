@@ -18,7 +18,6 @@
 /*====================UNIVERSALS====================*/
 * {
     font-family: 'Source Sans Pro', sans-serif;
-    /*border: 1px solid red;*/
 }
 
 body {
@@ -98,14 +97,13 @@ p {
 }
 
 /*====================HEADER====================*/
-
-.nav li.active {
-    border-bottom: 2px solid #ff7000;
-}
-
 .navbar-brand {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
+}
+
+.nav li.active {
+    border-bottom: 2px solid #ff7000;
 }
 
 /*====================CALL TO ACTION====================*/
@@ -125,11 +123,22 @@ p {
     color: #fff;
 }
 
+#hero img {
+    max-width: 300px;
+    margin: auto;
+    -webkit-filter: grayscale(0%);
+}
+
 #hero h1 span {
     font-size: 64px;
     color: #fff;
     text-shadow: 4px 2px #000;
     border-bottom: 4px solid #ff7000;
+}
+
+#hero .hidden-sm > .img-responsive {
+    max-width: 70%;
+    margin: auto;
 }
 
 .hidden-sm.hidden-md.hidden-lg img {
@@ -139,17 +148,6 @@ p {
 
 .hidden-sm h1 span {
     border-bottom: 4px solid #ff7000;
-}
-
-#hero img {
-    max-width: 300px;
-    margin: auto;
-    -webkit-filter: grayscale(0%);
-}
-
-#hero .hidden-sm > .img-responsive {
-    max-width: 70%;
-    margin: auto;
 }
 
 /*====================ABOUT====================*/
@@ -261,8 +259,14 @@ input, textarea {
     }
 }
 
-.col-sm-offset-7 {
+.col-sm-offset-7 a {
     font-size: 18px;
+    text-decoration: none;
+    color: #555;
+}
+
+.col-sm-offset-7 a:hover {
+    color: #000;
 }
 
 address {
