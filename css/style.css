@@ -83,7 +83,7 @@ p {
 }
 
 .gutter-top-small {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .gutter-bottom-medium {
@@ -161,11 +161,11 @@ p {
 }
 
 /*====================PROJECTS====================*/
-#projects .row .visual {
+.projects .row .visual {
     min-height: 250px;
 }
 
-#projects .visual > img {
+.projects .visual > img {
     max-height: 200px;
     margin-top: 25px;
     margin-bottom: -25px;
@@ -187,11 +187,11 @@ p {
     opacity: 1;
 }
 
-#projects .black-background > img.gutter-top-medium {
+.projects .black-background > img.gutter-top-medium {
     margin-top: 80px;
 }
 
-#projects div h3 {
+.projects div h3 {
     font-size: 32px;
 }
 
@@ -278,6 +278,10 @@ address {
 }
 
 /*====================FOOTER====================*/
+footer .black-background {
+  padding-top: 10px;
+}
+
 footer .black-background:last-child{
     padding-bottom: 10px;
 }

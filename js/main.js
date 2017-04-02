@@ -1,5 +1,5 @@
 // Bootstrap Smooth Scroll
-$("#fixed-navbar a").on('click', function(event) {
+$("a").on('click', function(event) {
   // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
     // Prevent default anchor click behavior
@@ -15,17 +15,6 @@ $("#fixed-navbar a").on('click', function(event) {
             window.location.hash = hash;
         });
     } // End if
-});
-
-// Contact Form Tab Toggle
-$(document).ready(function(){
-
-    $('#contact-tab').on('click', function() {
-        $('.nav-tabs li:first-child a').tab('show');
-    });
-    $('#hire-tab').on('click', function() {
-        $('.nav-tabs li:eq(1) a').tab('show');
-    });
 });
 
 // Collapse Navbar at XS-Device
