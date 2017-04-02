@@ -234,11 +234,11 @@ input, textarea {
   height: 15px;
   width: 15px;
   position: absolute;
-  transform: translate(142.5px, -185px);
+  transform: translate(92.5px, -235px);
 }
 
 .pulse-container {
-    transform: translate(110px, -218px);
+    transform: translate(60px, -268px);
 }
 
 .pulse {
@@ -264,7 +264,7 @@ input, textarea {
 }
 
 .col-sm-offset-7 a {
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     color: #555;
 }
