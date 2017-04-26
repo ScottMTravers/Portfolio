@@ -114,7 +114,7 @@ p {
     border-bottom: 2px solid #ff7000;
 }
 
-/*====================CALL TO ACTION====================*/
+/*====================HERO====================*/
 .jumbotron {
     padding: 0;
 }
@@ -124,7 +124,7 @@ p {
     background-attachment: fixed;
     margin-top: -60px;
     margin-bottom: -50px;
-    background-image: url('../img/call-to-action.jpg');
+    background-image: url('../img/hero.jpg');
     background-size: cover;
     background-position: bottom center;
     -webkit-filter: grayscale(50%);
@@ -191,6 +191,16 @@ p {
     opacity: 1;
 }
 
+.visual:hover .overlay h3 {
+  transition: .3s ease;
+  transform: scale(1.2);
+}
+
+.visual:hover .overlay img {
+  transition: .3s ease;
+  transform: scale(1.2);
+}
+
 .projects .black-background > img.gutter-top-medium {
     margin-top: 80px;
 }
@@ -205,6 +215,10 @@ p {
 
 #weather-logo {
     color: #F1F227;
+}
+
+#quote-logo {
+  color: #122C19;
 }
 
 /*====================CONTACT====================*/
